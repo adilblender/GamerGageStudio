@@ -1,0 +1,2 @@
+rootProject.name = "GamerGageStudio"
+include ':app'
