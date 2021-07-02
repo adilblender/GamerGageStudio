@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gamer Gage Studio</string>
+    <string name="about_us">About Us</string>
+    <string name="upcoming_game">Upcoming Game</string>
+    <string name="founder">Founder and Lead Developer</string>
+    <string name="threeDModeler">3D Modeller</string>
+<string name="twoDDesigner">2D Designer</string>
+    <string name="Kushal">Kushal Baid</string>
+    <string name="adil">Adil Khan</string>
+    <string name="yuvraj">Yuvraj</string>
+    <string name="Programmer">Programmer</string>
+</resources>

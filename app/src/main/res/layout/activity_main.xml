@@ -1,0 +1,382 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/app_name"
+        android:textSize="45sp"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/front_background"
+        android:layout_height="230dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="@string/upcoming_game"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/founder"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/black"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:src="@drawable/founder"
+            app:civ_border_width="2dp"
+            android:background="@color/black"
+            app:civ_border_color="#FF000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/twoDDesigner"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:src="@drawable/artist"
+                    app:civ_border_width="2dp"
+                    android:background="@color/black"
+                    app:civ_border_color="#FF000000"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/threeDModeler"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:src="@drawable/adil_khan"
+                    app:civ_border_width="2dp"
+                    android:background="@color/black"
+                    app:civ_border_color="#FF000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:textAlignment="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/Programmer"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:src="@drawable/programmer"
+                    app:civ_border_width="2dp"
+                    android:background="@color/black"
+                    app:civ_border_color="#FF000000"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:orientation="vertical">>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call"
+
+                android:textSize="15sp"
+                android:background="@color/black"
+
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/btncall"
+                android:layout_width="100dp"
+                android:background="@color/black"
+                android:layout_height="match_parent"
+                android:src="@drawable/mobile"/>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:background="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                android:textSize="15sp"
+
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:background="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/whatsapp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Follow Us"
+                android:textSize="15sp"
+
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/fbButton"
+                android:background="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/facebook"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="watch us"
+                android:textSize="15sp"
+
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/ytube"
+                android:background="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/download"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <TextView
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wish List Us"
+                android:textSize="15sp"
+
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/steam"
+                android:background="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/th"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <TextView
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Follow Us"
+                android:textSize="15sp"
+
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+            <ImageView
+
+                android:id="@+id/insta"
+                android:background="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/insta"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
