@@ -17,6 +17,7 @@
         android:layout_height="70dp"
         android:text="@string/app_name"
         android:textSize="45sp"
+        android:gravity="center"
         android:background="@color/black"
         android:textColor="@color/white"/>
 
@@ -30,7 +31,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="@string/upcoming_game"
         android:textSize="25sp"
         android:textColor="@color/white"
@@ -45,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/about_us"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textSize="25sp"
         android:textColor="@color/white"
         android:background="@color/black"/>
@@ -61,7 +62,7 @@
             android:layout_height="50dp"
             android:text="@string/founder"
             android:textSize="15sp"
-            android:textAlignment="center"
+            android:gravity="center"
             android:textColor="@color/white"
             android:background="@color/black"/>
 
@@ -79,7 +80,7 @@
     </LinearLayout>
 
     <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
         android:weightSum="3"
@@ -99,7 +100,7 @@
                     android:layout_height="50dp"
                     android:text="@string/twoDDesigner"
                     android:textSize="15sp"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:textColor="@color/white"
                     android:background="@color/black"/>
 
@@ -128,7 +129,7 @@
                     android:layout_height="50dp"
                     android:text="@string/threeDModeler"
                     android:textSize="15sp"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:textColor="@color/white"
                     android:background="@color/black"/>
 
@@ -157,6 +158,7 @@
                     android:text="@string/Programmer"
                     android:textSize="15sp"
                     android:textColor="@color/white"
+                    android:gravity="center"
                     android:background="@color/black"/>
 
 
@@ -178,7 +180,8 @@
         </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+
         android:layout_height="100dp"
         android:background="@color/black"
         android:orientation="horizontal"
@@ -299,6 +302,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:weightSum="4"
         android:orientation="horizontal">
 
 
@@ -306,6 +310,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="@color/black"
             >
 
 
@@ -336,6 +343,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:background="@color/black"
             >
 
 
